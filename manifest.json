@@ -3,9 +3,9 @@
   "name": "Mi Recetario Inteligente",
   "short_name": "Recetario",
   "description": "Tu asistente de cocina inteligente con IA para extraer recetas de redes sociales.",
-  "start_url": "/",
+  "start_url": "./index.html",
+  "scope": "/",
   "display": "standalone",
-  "display_override": ["window-controls-overlay", "fullscreen"],
   "background_color": "#f8fafc",
   "theme_color": "#ea580c",
   "orientation": "portrait",
@@ -21,15 +21,6 @@
       "sizes": "512x512",
       "type": "image/png",
       "purpose": "maskable"
-    }
-  ],
-  "categories": ["food", "lifestyle"],
-  "screenshots": [
-    {
-      "src": "https://picsum.photos/seed/recipe1/720/1280",
-      "sizes": "720x1280",
-      "type": "image/png",
-      "label": "Pantalla de inicio del recetario"
     }
   ]
 }
