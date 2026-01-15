@@ -1,0 +1,8 @@
+{
+  "name": "Mi Recetario Inteligente",
+  "description": "Una aplicación de recetario personal inteligente que captura recetas de TikTok, YouTube e Instagram, organizándolas automáticamente con IA.",
+  "requestFramePermissions": [
+    "camera",
+    "microphone"
+  ]
+}
